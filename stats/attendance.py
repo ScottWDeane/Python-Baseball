@@ -12,5 +12,6 @@ plt.xlabel('Year')
 plt.ylabel('Attendance')
 plt.axhline(y=attendance['attendance'].mean(), label='Mean', linestyle='--', color='green')
 
+plt.title('Average Game Attendance per Year')
 plt.show()
 

@@ -22,4 +22,5 @@ hits = hits.sort_values(['inning', 'hit_type'])
 hits = hits.pivot(index='inning', columns='hit_type', values='count')
 
 hits.plot.bar(stacked=True)
+plt.title('Average Points per Inning')
 plt.show()
